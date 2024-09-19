@@ -1,0 +1,14 @@
+# Get age from user
+# If age is less than or equal to 1 
+  # Display infant
+# If age is greater than 1 and less than 13
+  # Display child
+# If age is greater than or equal to 13 and less than 20
+  # Display teenager
+# If age is greater than or equal to 20
+  # Display Adult
+
+
+# Matthew Beekman
+# 9/17/2024
+#  Pseudocode for Age Classifier program
