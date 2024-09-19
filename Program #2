@@ -1,0 +1,13 @@
+Age = int(input('Age: '))
+if Age <= 1:
+    print('Infant')
+elif Age > 1 and Age < 13:
+    print('Child')
+elif Age >= 13 and Age < 20:
+    print('Teenager')
+elif Age >= 20:
+    print('Adult')
+
+# Matthew Beekman
+# Program 2
+# 9/18/2024
