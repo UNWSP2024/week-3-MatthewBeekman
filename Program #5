@@ -1,0 +1,87 @@
+Order = input('Type of Hot Dog (always answer in all lowercase): ')
+if "hot" in Order:
+    hot_dog_cost = 3.50
+    Cheese = input("Would you like cheese?: ")
+    if "yes" in Cheese:
+        cheese_cost = 0.50
+        Peppers = input("Would you like peppers?: ")
+        if "yes" in Peppers:
+            peppers_cost = 0.75
+            Grilled_Onions = input("Would you like grilled onions?: ")
+            if "yes" in Grilled_Onions:
+                grilled_onions_cost = 1
+            else:
+                grilled_onions_cost = 0
+        else:
+            peppers_cost = 0
+            Grilled_Onions = input("Would you like grilled onions?: ")
+            if "yes" in Grilled_Onions:
+                grilled_onions_cost = 1
+            else:
+                grilled_onions_cost = 0
+    else:
+        cheese_cost = 0
+        Peppers = input("Would you like peppers?: ")
+        if "yes" in Peppers:
+            peppers_cost = 0.75
+            Grilled_Onions = input("Would you like grilled onions?: ")
+            if "yes" in Grilled_Onions:
+                grilled_onions_cost = 1
+            else:
+                grilled_onions_cost = 0
+        else:
+            peppers_cost = 0
+            Grilled_Onions = input("Would you like grilled onions?: ")
+            if "yes" in Grilled_Onions:
+                grilled_onions_cost = 1
+            else:
+                grilled_onions_cost = 0
+else:
+    hot_dog_cost = 4.50
+    Cheese = input("Would you like cheese?: ")
+    if "yes" in Cheese:
+        cheese_cost = 0.50
+        Peppers = input("Would you like peppers?: ")
+        if "yes" in Peppers:
+            peppers_cost = 0.75
+            Grilled_Onions = input("Would you like grilled onions?: ")
+            if "yes" in Grilled_Onions:
+                grilled_onions_cost = 1
+            else:
+                grilled_onions_cost = 0
+        else:
+            peppers_cost = 0
+            Grilled_Onions = input("Would you like grilled onions?: ")
+            if "yes" in Grilled_Onions:
+                grilled_onions_cost = 1
+            else:
+                grilled_onions_cost = 0
+    else:
+        cheese_cost = 0
+        Peppers = input("Would you like peppers?: ")
+        if "yes" in Peppers:
+            peppers_cost = 0.75
+            Grilled_Onions = input("Would you like grilled onions?: ")
+            if "yes" in Grilled_Onions:
+                grilled_onions_cost = 1
+            else:
+                grilled_onions_cost = 0
+        else:
+            peppers_cost = 0
+            Grilled_Onions = input("Would you like grilled onions?: ")
+            if "yes" in Grilled_Onions:
+                grilled_onions_cost = 1
+            else:
+                grilled_onions_cost = 0
+Total_Price = hot_dog_cost + cheese_cost + peppers_cost + grilled_onions_cost
+Tax = Total_Price * 0.07
+Final_Price = Total_Price + Tax
+print("Total Price = $", Total_Price)
+print("Tax = $", Tax)
+print("Final Price = $", Final_Price)
+
+
+
+# Matthew Beekman
+# Program 5
+# 9/18/2024
